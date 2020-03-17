@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ikoembe/model/nedim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ikoembe/model/nedim.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="eski" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -86,12 +92,49 @@
       <option name="presentableId" value="Default" />
       <updated>1584378967756</updated>
     </task>
+    <task id="LOCAL-00001" summary=" package name is corrected&#10; gitignore file is added">
+      <created>1584380843015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584380843015</updated>
+    </task>
+    <task id="LOCAL-00002" summary=" package name is corrected&#10; gitignore file is added">
+      <created>1584478466178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584478466179</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CTeam class added">
+      <created>1584480031391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584480031391</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CTeam class added">
+      <created>1584480095152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584480095152</updated>
+    </task>
+    <task id="LOCAL-00005" summary="CTeam class added">
+      <created>1584480361928</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584480361928</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore file added" />
     <MESSAGE value=" package name is corrected&#10; gitignore file is added" />
-    <option name="LAST_COMMIT_MESSAGE" value=" package name is corrected&#10; gitignore file is added" />
+    <MESSAGE value="CTeam class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CTeam class added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="94" key="#Project_Structure" timestamp="1584378990043">
@@ -103,24 +146,25 @@
     </state>
     <state x="491" y="385" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.984@0.0.1280.984" timestamp="1584479157398" />
     <state x="341" y="26" key="CommitChangelistDialog2" timestamp="1584380487076">
+
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="341" y="26" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1584380487076" />
-    <state width="1540" height="212" key="GridCell.Tab.0.bottom" timestamp="1584379341894">
+    <state width="1540" height="212" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584431631586" />
+    <state width="1540" height="212" key="GridCell.Tab.0.center" timestamp="1584431631586">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="212" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584379341894" />
-    <state width="1540" height="212" key="GridCell.Tab.0.center" timestamp="1584379341894">
+    <state width="1540" height="212" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584431631586" />
+    <state width="1540" height="212" key="GridCell.Tab.0.left" timestamp="1584431631586">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="212" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584379341894" />
-    <state width="1540" height="212" key="GridCell.Tab.0.left" timestamp="1584379341893">
+    <state width="1540" height="212" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584431631586" />
+    <state width="1540" height="212" key="GridCell.Tab.0.right" timestamp="1584431631586">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="212" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584379341893" />
-    <state width="1540" height="212" key="GridCell.Tab.0.right" timestamp="1584379341894">
+    <state width="1540" height="212" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584431631586" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1584480338874">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1540" height="212" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584379341894" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1584480338874" />
   </component>
 </project>
