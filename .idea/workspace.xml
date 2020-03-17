@@ -2,32 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e55c7e16-709f-4ce1-95ae-2f49869828ad" name="Default Changelist" comment=" package name is corrected&#10; gitignore file is added">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoGamesWithJavaCore_OOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ikoembe/controller/MeinProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ikoembe/model/ATeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ikoembe/model/BTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ikoembe/model/CashBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ikoembe/ratselGame/RatselSpiel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ikoembe/slotMaschine/SpielAutomat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ikoembe/utilities/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ikoembeProject/ATeam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ikoembeProject/BTeam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ikoembeProject/CashBox.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ikoembeProject/MeinProject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ikoembeProject/RatselSpiel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ikoembeProject/Reader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ikoembeProject/SpielAutomat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikoembe/model/nedim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ikoembe/model/nedim.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,6 +98,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="94" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1584378990043" />
+    <state x="491" y="385" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584479157398">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="491" y="385" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.984@0.0.1280.984" timestamp="1584479157398" />
     <state x="341" y="26" key="CommitChangelistDialog2" timestamp="1584380487076">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
