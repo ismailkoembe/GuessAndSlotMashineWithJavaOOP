@@ -7,4 +7,7 @@ public class nedim {
         System.out.println(" merv branch changes");
         System.out.println(" merv brgfjhgjhgjh changes");
     }
+    public void coronaVirus(){
+        System.out.println("Corona 2019");
+    }
 }
