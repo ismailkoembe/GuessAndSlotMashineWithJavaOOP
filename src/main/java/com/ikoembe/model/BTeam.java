@@ -15,7 +15,7 @@ public void whoPlays() {
 
 @Override
 public void playGame() {
-    MeinProject.playGame();
+    MyProject.playGame();
 }
 
 public BTeam (String name, String surname, double geld, double profit) {
