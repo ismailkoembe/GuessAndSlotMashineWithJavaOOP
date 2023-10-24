@@ -56,7 +56,7 @@ import java.util.Random;
         
         for (int i=0;i<3;i++) {
             
-            random = rn.nextInt(5);
+            random = rn.nextInt(6);
             
             nummer[i]=obst[random];
             
@@ -66,13 +66,13 @@ import java.util.Random;
         System.out.println();
 
         if (nummer[0].equals(nummer[1]) && nummer[0].equals(nummer[2])) {
-            System.out.println("Glückwunsch, Sie haben gewonnen. "
+            System.out.println("Glückwunsch, Sie haben gewonnen : "
              + (3*amountMethod)+ " ");
             tWinMethod+=3*amountMethod;
             user.profitCalc(tWinMethod);
          
         }else if (nummer[0].equals(nummer[1]) || nummer[0].equals(nummer[2]) || nummer[1].equals(nummer[2])) {
-            System.out.println("Glückwunsch, Sie haben gewonnen. "+ (2*amountMethod)+"€");
+            System.out.println("Glückwunsch, Sie haben gewonnen : "+ (2*amountMethod)+"€");
             tWinMethod+=2*amountMethod;
             user.profitCalc(tWinMethod);
    
@@ -91,8 +91,9 @@ import java.util.Random;
         String antwort= Reader.readString();
         if (antwort.equalsIgnoreCase("n")) {
                                            
-        System.out.println("Eingabe: " + tAmountMethod+" and Ausgabe "+ tWinMoney+
-                " Differenz= "+ (tAmountMethod-tWinMoney));
+        System.out.println("Eingabe: " + tAmountMethod+" and Ausgabe "+ (tWinMoney)+
+                " Differenz= "+ (tWinMoney-tAmountMethod));
+        //kasada kalan parayı hesap et. dikkate al.
                          
         flag=false;
             MeinProject.endGame(flag);

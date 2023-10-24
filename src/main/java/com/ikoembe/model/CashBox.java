@@ -17,7 +17,7 @@ public class CashBox {
     }
     public double profitCalc(double prof) {
         this.profit+=prof;
-        System.out.println(" verdient "+profit+"€");
+        System.out.println("Verdient "+profit+"€");
         return profit; 
         
 }
