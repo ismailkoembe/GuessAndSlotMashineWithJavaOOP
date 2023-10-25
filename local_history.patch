@@ -1,0 +1,34 @@
+Index: src/main/java/com/ikoembe/controller/MeinProject.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/ikoembe/controller/MeinProject.java b/src/main/java/com/ikoembe/controller/MeinProject.java
+--- a/src/main/java/com/ikoembe/controller/MeinProject.java	
++++ b/src/main/java/com/ikoembe/controller/MeinProject.java	
+@@ -9,6 +9,7 @@
+ import com.ikoembe.utilities.*;
+ import com.ikoembe.ratselGame.*;
+ import com.ikoembe.slotMaschine.*;
++import riddleQuizGame.RiddleQuizGame;
+ 
+ /**
+  *
+@@ -62,7 +63,7 @@
+             
+             int answ2=Reader.readInt();
+             if (answ2==1){
+-                RatselSpiel.run(3);
++                RiddleQuizGame.run(3);
+                 break;
+             }else if (answ2==2){
+                 SpielAutomat.run(flag);
+@@ -84,7 +85,7 @@
+     //Overloaded methods with different input
+     public static boolean endGame(boolean flag, String ratsel){
+             System.out.println("GAME OVER");
+-            System.out.println(ratsel+" .");
++            System.out.println(ratsel+" game finished.");
+             System.out.println("");
+          
+         return playContinue (false);

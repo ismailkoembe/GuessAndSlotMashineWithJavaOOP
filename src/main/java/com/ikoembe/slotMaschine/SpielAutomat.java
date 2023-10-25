@@ -36,7 +36,7 @@ import java.util.Random;
             playAgain(tWinMoney, tAmount);
          
             flag=false;
-            MeinProject.playContinue(flag);
+            MyProject.playContinue(flag);
             break;
         }   
                 
@@ -66,13 +66,13 @@ import java.util.Random;
         System.out.println();
 
         if (nummer[0].equals(nummer[1]) && nummer[0].equals(nummer[2])) {
-            System.out.println("Glückwunsch, Sie haben gewonnen. "
+            System.out.println("**************Glückwunsch************"+"/nYou won "
              + (3*amountMethod)+ " ");
             tWinMethod+=3*amountMethod;
             user.profitCalc(tWinMethod);
          
         }else if (nummer[0].equals(nummer[1]) || nummer[0].equals(nummer[2]) || nummer[1].equals(nummer[2])) {
-            System.out.println("Glückwunsch, Sie haben gewonnen. "+ (2*amountMethod)+"€");
+            System.out.println("**************Glückwunsch************"+"/nYou won  "+ (2*amountMethod)+"€");
             tWinMethod+=2*amountMethod;
             user.profitCalc(tWinMethod);
    
@@ -87,15 +87,15 @@ import java.util.Random;
                                            
     public static boolean playAgain(double tWinMoney, double tAmountMethod) {
         boolean flag=false; 
-        System.out.println("Wollen Sie noch mal spielen? '<J>', '<N>'");
+        System.out.println("Do you want to play again? '<Y>', '<N>'");
         String antwort= Reader.readString();
         if (antwort.equalsIgnoreCase("n")) {
                                            
-        System.out.println("Eingabe: " + tAmountMethod+" and Ausgabe "+ tWinMoney+
-                " Differenz= "+ (tAmountMethod-tWinMoney));
+        System.out.println("Input: " + tAmountMethod+" and output "+ tWinMoney+
+                " Difference= "+ (tAmountMethod-tWinMoney));
                          
         flag=false;
-            MeinProject.endGame(flag);
+            MyProject.endGame(flag);
                                 
         } 
         if (antwort.equalsIgnoreCase("j")) { 
