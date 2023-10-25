@@ -13,7 +13,7 @@ import java.util.Random;
  *
  * @author ikoembe
  */
-    public class SlotGame {
+    public class SpielAutomat {
 
     static double amount;
     static double tAmount;
@@ -36,7 +36,7 @@ import java.util.Random;
             playAgain(tWinMoney, tAmount);
          
             flag=false;
-            MeinProject.playContinue(flag);
+            MyProject.playContinue(flag);
             break;
         }   
                 
@@ -56,7 +56,7 @@ import java.util.Random;
         
         for (int i=0;i<3;i++) {
             
-            random = rn.nextInt(6);
+            random = rn.nextInt(5);
             
             nummer[i]=obst[random];
             
@@ -66,13 +66,13 @@ import java.util.Random;
         System.out.println();
 
         if (nummer[0].equals(nummer[1]) && nummer[0].equals(nummer[2])) {
-            System.out.println("Glückwunsch, Sie haben gewonnen : "
+            System.out.println("**************Glückwunsch************"+"/nYou won "
              + (3*amountMethod)+ " ");
             tWinMethod+=3*amountMethod;
             user.profitCalc(tWinMethod);
          
         }else if (nummer[0].equals(nummer[1]) || nummer[0].equals(nummer[2]) || nummer[1].equals(nummer[2])) {
-            System.out.println("Glückwunsch, Sie haben gewonnen : "+ (2*amountMethod)+"€");
+            System.out.println("**************Glückwunsch************"+"/nYou won  "+ (2*amountMethod)+"€");
             tWinMethod+=2*amountMethod;
             user.profitCalc(tWinMethod);
    
@@ -87,16 +87,15 @@ import java.util.Random;
                                            
     public static boolean playAgain(double tWinMoney, double tAmountMethod) {
         boolean flag=false; 
-        System.out.println("Wollen Sie noch mal spielen? '<J>', '<N>'");
+        System.out.println("Do you want to play again? '<Y>', '<N>'");
         String antwort= Reader.readString();
         if (antwort.equalsIgnoreCase("n")) {
                                            
-        System.out.println("Eingabe: " + tAmountMethod+" and Ausgabe "+ (tWinMoney)+
-                " Differenz= "+ (tWinMoney-tAmountMethod));
-        //kasada kalan parayı hesap et. dikkate al.
+        System.out.println("Input: " + tAmountMethod+" and output "+ tWinMoney+
+                " Difference= "+ (tAmountMethod-tWinMoney));
                          
         flag=false;
-            MeinProject.endGame(flag);
+            MyProject.endGame(flag);
                                 
         } 
         if (antwort.equalsIgnoreCase("j")) { 
