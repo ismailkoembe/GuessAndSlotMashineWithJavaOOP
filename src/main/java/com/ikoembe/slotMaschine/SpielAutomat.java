@@ -13,7 +13,7 @@ import java.util.Random;
  *
  * @author ikoembe
  */
-    public class SpielAutomat {
+    public class SlotGame {
 
     static double amount;
     static double tAmount;
