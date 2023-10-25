@@ -1,0 +1,41 @@
+# IntelliJ IDEA files
+.idea/
+
+# Compiled class files
+*.class
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Maven build directory
+target/
+
+# Gradle build directory
+build/
+
+# Eclipse files
+.settings/
+
+# Mac-specific files
+.DS_Store
+
+# OS-specific files
+Thumbs.db
+
+# Java-related files
+*.iml
+*.ipr
+*.iws
+
+# User-specific IntelliJ IDEA workspace files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Java bytecode
+*.class
+
+# Gradle Wrapper
+gradle-wrapper.jar
+gradle-wrapper.properties
