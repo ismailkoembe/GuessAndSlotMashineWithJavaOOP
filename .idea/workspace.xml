@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e55c7e16-709f-4ce1-95ae-2f49869828ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikoembe/model/CashBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ikoembe/model/CashBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikoembe/slotMaschine/SpielAutomat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ikoembe/slotMaschine/SpielAutomat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ikoembeProject/ATeam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ikoembeProject/BTeam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ikoembeProject/CashBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ikoembeProject/MeinProject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ikoembeProject/RatselSpiel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ikoembeProject/Reader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ikoembeProject/SpielAutomat.class" beforeDir="false" />
-    </list>
+    <list default="true" id="e55c7e16-709f-4ce1-95ae-2f49869828ad" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +18,21 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/ikoembe/slotMaschine/SpielAutomat.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -51,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "ayca"
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="RunManager" selected="Application.com.ikoembe.controller.MeinProject">
