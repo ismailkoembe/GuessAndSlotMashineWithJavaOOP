@@ -10,19 +10,48 @@ import com.ikoembe.utilities.*;
 import com.ikoembe.ratselGame.*;
 import com.ikoembe.slotMaschine.*;
 
+
+import java.util.Scanner;
+
 /**
  *
  * @author ismailkoembe
  */
 public class MeinProject {
 
-    public static void main(String[] args) {
-            CashBox user = new CashBox();
-            ATeam a1 = new ATeam("Hans", "Müller", 1000,0);
-            BTeam b1 = new BTeam("Thomas", "Mann", 400,0);         
-            System.out.println("Wer spielt? "+a1.getName()+" oder "+b1.getName());
+   public static void main(String[] args) {
 
-            String antwort=Reader.readString();
+
+        CashBox user = new CashBox();
+        ATeam a1 = new ATeam("Hans", "Müller", 1000,0);
+        BTeam b1 = new BTeam("Thomas", "Mann", 400,0);
+
+
+
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Wer spielt? " +"Enter 'h' für Hans  "+a1.getName()+" oder enter 't' für Thomas "+b1.getName()
+        );
+
+        String antwort=scan.nextLine();
+        if (antwort.equalsIgnoreCase("h")){
+            System.out.println("Hallo Hans Müller.\ngehören Sie ATeam");
+            System.out.println( "geld: "+a1.getGeld() );
+            a1.playGame();
+
+
+
+        } else if (antwort.equalsIgnoreCase("t")) {
+            System.out.println("Hallo Thomas Mann.\ngehören Sie BTeam");
+            System.out.println("geld: "+b1.getGeld());
+            b1.playGame();
+
+
+
+        }else {
+            System.out.println("Überprüfen Sie Ihre Antwort ");
+        }
+
+          antwort=Reader.readString();
             if (antwort.equalsIgnoreCase(a1.getName())){
            
                 a1.whoPlays();
@@ -56,8 +85,8 @@ public class MeinProject {
     public static boolean playContinue (boolean flag ){
       while(flag) {
             System.out.println("Welches Spiel wollen Sie spielen?");
-            System.out.println("Geben Sie für Ratespiel <1> ein.");
-            System.out.println("Geben Sie für Spielautomat <2> ein");
+            System.out.println("\n(1)_Geben Sie für Ratespiel ein.");
+            System.out.println("\n(2)_Geben Sie für Spielautomat  ein");
             System.out.println("-------------------------------------");
             
             int antw2=Reader.readInt();
@@ -82,16 +111,13 @@ public class MeinProject {
         return playContinue (false);
     }
     //überladene Methoden mit unterschiedliche eingabe
-    public static boolean endGame(boolean flag, String ratsel){
-            System.out.println("S P I E L  I S T  A U S!");	
-            System.out.println(ratsel+" spiel beendet.");
-            System.out.println("");
-         
-        return playContinue (false);
+    public static boolean endGame(boolean flag, String ratsel) {
+        System.out.println("S P I E L  I S T  A U S!");
+        System.out.println(ratsel + " spiel beendet.");
+        System.out.println("");
+
+        return playContinue(false);
+
+
     }
-    
-
-
-    
-}
-  
+    }
