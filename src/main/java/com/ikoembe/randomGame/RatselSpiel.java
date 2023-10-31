@@ -18,7 +18,7 @@ import com.ikoembe.utilities.*;
     
     public RatselSpiel() {}
        
-        public static boolean run(int chance){
+        public static boolean run(int chance) throws InterruptedException {
             CashBox user = new CashBox();
             ATeam a1 = new ATeam();
             boolean flag= true;

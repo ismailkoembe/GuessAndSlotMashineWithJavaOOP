@@ -17,7 +17,7 @@ import com.ikoembe.slotMaschine.*;
  */
 public class MyProject {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
             CashBox user = new CashBox();
             ATeam a1 = new ATeam("Hans", "Müller", 1000,0);
             BTeam b1 = new BTeam("Thomas", "Mann", 400,0);         
@@ -37,7 +37,7 @@ public class MyProject {
 
         }
     }
-    public static boolean playGame(){
+    public static boolean playGame() throws InterruptedException {
         boolean flag=false;
             System.out.println("Do you want play a game? '<Y>', '<N>'");
             String antw1 = Reader.readString();
@@ -54,7 +54,7 @@ public class MyProject {
          return flag;
     }         
 
-    public static boolean playContinue (boolean flag ){
+    public static boolean playContinue (boolean flag ) throws InterruptedException {
       while(flag) {
             System.out.println("What game dou you want to play?");
             System.out.println("For guessing game enter <1>.");
@@ -76,14 +76,14 @@ public class MyProject {
 	return flag;
     }
     //überladene Methoden mit unterschiedliche eingabe
-    public static boolean endGame(boolean flag){
+    public static boolean endGame(boolean flag) throws InterruptedException {
             System.out.println("+++++++++GAME OVER++++++++++");
             System.out.println("");
             
         return playContinue (false);
     }
     //überladene Methoden mit unterschiedliche eingabe
-    public static boolean endGame(boolean flag, String ratsel){
+    public static boolean endGame(boolean flag, String ratsel) throws InterruptedException {
             System.out.println("+++++++++GAME OVER++++++++++");
             System.out.println(ratsel+"game is over");
             System.out.println("");

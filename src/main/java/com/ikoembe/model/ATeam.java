@@ -19,7 +19,7 @@ public void whoPlays() {
     System.out.println(name+" is from A Team");
 }
 
-public void playGame() {
+public void playGame() throws InterruptedException {
     MyProject.playGame();
 }
 
