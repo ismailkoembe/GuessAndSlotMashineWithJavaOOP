@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e55c7e16-709f-4ce1-95ae-2f49869828ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ikoembe/controller/MeinProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ikoembe/controller/MeinProject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +24,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="eski" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -39,13 +40,13 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;reyhan&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "reyhan1"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="MeinProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ikoembeProject.MeinProject" />
@@ -133,7 +134,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -144,35 +157,5 @@
     <MESSAGE value=" package name is corrected&#10; gitignore file is added" />
     <MESSAGE value="CTeam class added" />
     <option name="LAST_COMMIT_MESSAGE" value="CTeam class added" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="392" y="94" key="#Project_Structure" timestamp="1584378990043">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="392" y="94" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1584378990043" />
-    <state x="49" y="0" key="CommitChangelistDialog2" timestamp="1584481329397">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="49" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1584481329397" />
-    <state width="1540" height="212" key="GridCell.Tab.0.bottom" timestamp="1584431631586">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1540" height="212" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584431631586" />
-    <state width="1540" height="212" key="GridCell.Tab.0.center" timestamp="1584431631586">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1540" height="212" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584431631586" />
-    <state width="1540" height="212" key="GridCell.Tab.0.left" timestamp="1584431631586">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1540" height="212" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584431631586" />
-    <state width="1540" height="212" key="GridCell.Tab.0.right" timestamp="1584431631586">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1540" height="212" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584431631586" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1584480338874">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1584480338874" />
   </component>
 </project>
