@@ -22,7 +22,7 @@ import com.ikoembe.utilities.*;
             CashBox user = new CashBox();
             ATeam a1 = new ATeam();
             boolean flag= true;
-            System.out.println("+++++++++Welcome to  Random Game+++++++++");
+            System.out.println("+++++++++Welcome to the Random Game+++++++++");
             System.out.println(" Dial the number(1-20) and try to guess my number.");
             System.out.println("You can try only three times. Number: ???");
             int geheimnis =(int) (Math.random()*20+1);
@@ -32,7 +32,7 @@ import com.ikoembe.utilities.*;
             int antw3=Reader.readInt();
         
             if (antw3==geheimnis) {
-                System.out.println("**************Glückwunsch************"+"/nYou won  "
+                System.out.println("**************CONGRATULATIONS************"+"/nYou won  "
                                     + "My Number was"+ geheimnis);
                 user.profit=user.profitCalc(chance*geheimnis);
                 flag=false;            
@@ -51,7 +51,7 @@ import com.ikoembe.utilities.*;
                     break;                
             }else
                 System.out.println("Try again");
-                System.out.println("You have "+chance+ " Chances");
+                System.out.println("You have only "+chance+ " Chances");
                 
                 }
             }while (flag);
