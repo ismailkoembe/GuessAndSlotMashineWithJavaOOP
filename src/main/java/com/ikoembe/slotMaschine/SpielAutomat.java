@@ -43,7 +43,7 @@ import java.util.Random;
         
     }
                                             
-    public static double playTheGame(double amountMethod, double tWinMethod) throws InterruptedException {
+    public static double playTheGame(double amountMethod, double tWinMethod) {
         CashBox user = new CashBox();
      
     String [] fruits={"Cherries", "Oranges", "Plums", "Bells", "Melons", "Pear"};
@@ -65,19 +65,18 @@ import java.util.Random;
         System.out.println();
 
         if (nummer[0].equals(nummer[1]) && nummer[0].equals(nummer[2])) {
-            System.out.println("************Congratulations**************\n"+"You won "
+            System.out.println("***********Congratulations***************"+"/nYou won "
              + (3*amountMethod)+ " ");
             tWinMethod+=3*amountMethod;
             user.profitCalc(tWinMethod);
          
         }else if (nummer[0].equals(nummer[1]) || nummer[0].equals(nummer[2]) || nummer[1].equals(nummer[2])) {
-            System.out.println("**************Congratulations************\n"+"You won  "+ (2*amountMethod)+"€");
+            System.out.println("**************Congratulations************"+"/nYou won  "+ (2*amountMethod)+"€");
             tWinMethod+=2*amountMethod;
             user.profitCalc(tWinMethod);
    
         }else {
             System.out.println("Oooops! :( You do not earn money.");
-            Thread.sleep(3000);
             user.profitCalc(-amountMethod);
         }
         
@@ -98,7 +97,7 @@ import java.util.Random;
             MyProject.endGame(flag);
                                 
         } 
-        if (antwort.equalsIgnoreCase("j")) { 
+        if (antwort.equalsIgnoreCase("y")) { //Burda oyun geri dönmüyordu
 
             flag=true;
         }   

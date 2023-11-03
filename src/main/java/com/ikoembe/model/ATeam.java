@@ -11,7 +11,7 @@ public ATeam () {}//Constructor
 
 public void information(String name, String surname, double geld) {
 
-    System.out.println(name+" "+surname+" hat "+geld+"€");
+    System.out.println(name+" "+surname+" has "+geld+"€");
 }
 
 
