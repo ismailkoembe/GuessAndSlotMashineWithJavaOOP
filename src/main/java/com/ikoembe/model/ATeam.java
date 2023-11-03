@@ -11,7 +11,7 @@ public ATeam () {}//Constructor
 
 public void information(String name, String surname, double geld) {
 
-    System.out.println(name+" "+surname+" hat "+geld+"€");
+    System.out.println(name+" "+surname+" has "+geld+"€");
 }
 
 
@@ -19,7 +19,7 @@ public void whoPlays() {
     System.out.println(name+" is from A Team");
 }
 
-public void playGame() {
+public void playGame() throws InterruptedException {
     MyProject.playGame();
 }
 
