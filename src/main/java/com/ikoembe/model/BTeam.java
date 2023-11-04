@@ -14,7 +14,7 @@ public void whoPlays() {
 }
 
 @Override
-public void playGame() {
+public void playGame() throws InterruptedException {
     MyProject.playGame();
 }
 
