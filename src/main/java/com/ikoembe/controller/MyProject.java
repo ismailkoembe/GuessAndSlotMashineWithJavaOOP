@@ -17,13 +17,14 @@ import com.ikoembe.slotMaschine.*;
  */
 public class MyProject {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
             CashBox user = new CashBox();
             ATeam a1 = new ATeam("Hans", "Müller", 1000,0);
             BTeam b1 = new BTeam("Thomas", "Mann", 400,0);         
-            System.out.println("Who plays? "+a1.getName()+" oder "+b1.getName());
+            System.out.println("Who plays? "+a1.getName()+" or "+b1.getName());
 
             String antwort=Reader.readString();
+
             if (antwort.equalsIgnoreCase(a1.getName())){
            
                 a1.whoPlays();
@@ -35,11 +36,12 @@ public class MyProject {
                 b1.information(b1.getName(), b1.getSurname(), b1.getGeld());
                 b1.playGame();
 
+
         }
     }
-    public static boolean playGame(){
+    public static boolean playGame() throws InterruptedException {
         boolean flag=false;
-            System.out.println("Do you want play a game? '<Y>', '<N>'");
+            System.out.println("Do you want to play a game? '<Y>', '<N>'");
             String antw1 = Reader.readString();
          if (antw1.equalsIgnoreCase("n")){
              endGame(flag);
@@ -48,17 +50,17 @@ public class MyProject {
             flag =true; 
             playContinue(flag);           
         }else { 
-            System.out.println("Check your antwort");
+            System.out.println("Check your answer");
             System.out.println("----------------------------");
     }    
          return flag;
     }         
 
-    public static boolean playContinue (boolean flag ){
+    public static boolean playContinue (boolean flag ) throws InterruptedException {
       while(flag) {
             System.out.println("What game dou you want to play?");
-            System.out.println("For guessing game enter <1>.");
-            System.out.println("For guessing game enter <2>");
+            System.out.println("For Random Game enter <1>.");
+            System.out.println("For Slot machine enter <2>");
             System.out.println("-------------------------------------");
             
             int antw2=Reader.readInt();
@@ -76,14 +78,14 @@ public class MyProject {
 	return flag;
     }
     //überladene Methoden mit unterschiedliche eingabe
-    public static boolean endGame(boolean flag){
+    public static boolean endGame(boolean flag) throws InterruptedException {
             System.out.println("+++++++++GAME OVER++++++++++");
             System.out.println("");
             
         return playContinue (false);
     }
     //überladene Methoden mit unterschiedliche eingabe
-    public static boolean endGame(boolean flag, String ratsel){
+    public static boolean endGame(boolean flag, String ratsel) throws InterruptedException {
             System.out.println("+++++++++GAME OVER++++++++++");
             System.out.println(ratsel+"game is over");
             System.out.println("");

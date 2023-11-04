@@ -23,7 +23,7 @@ import java.util.Random;
       
     }
     
-    public static boolean run(boolean flag){
+    public static boolean run(boolean flag) throws InterruptedException {
 
         while(flag) {
             System.out.println("Enter the amount of money you want to put into the slot machine.");
@@ -65,7 +65,7 @@ import java.util.Random;
         System.out.println();
 
         if (nummer[0].equals(nummer[1]) && nummer[0].equals(nummer[2])) {
-            System.out.println("**************************"+"/nYou won "
+            System.out.println("***********Congratulations***************"+"/nYou won "
              + (3*amountMethod)+ " ");
             tWinMethod+=3*amountMethod;
             user.profitCalc(tWinMethod);
@@ -84,7 +84,7 @@ import java.util.Random;
     }
     
                                            
-    public static boolean playAgain(double tWinMoney, double tAmountMethod) {
+    public static boolean playAgain(double tWinMoney, double tAmountMethod) throws InterruptedException {
         boolean flag=false; 
         System.out.println("Do you want to play again? '<Y>', '<N>'");
         String antwort= Reader.readString();
@@ -97,7 +97,7 @@ import java.util.Random;
             MyProject.endGame(flag);
                                 
         } 
-        if (antwort.equalsIgnoreCase("j")) { 
+        if (antwort.equalsIgnoreCase("y")) { //Burda oyun geri dönmüyordu
 
             flag=true;
         }   
