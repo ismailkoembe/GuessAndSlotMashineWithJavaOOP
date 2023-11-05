@@ -6,10 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e55c7e16-709f-4ce1-95ae-2f49869828ad" name="Default Changelist" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/funktion1.java" afterDir="false" />
 =======
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/funktion1.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+>>>>>>> burhan
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 >>>>>>> burhan
     </list>
@@ -40,13 +44,13 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MeinProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ikoembeProject.MeinProject" />
@@ -134,35 +138,5 @@
     <MESSAGE value=" package name is corrected&#10; gitignore file is added" />
     <MESSAGE value="CTeam class added" />
     <option name="LAST_COMMIT_MESSAGE" value="CTeam class added" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="392" y="94" key="#Project_Structure" timestamp="1584378990043">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="392" y="94" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1584378990043" />
-    <state x="49" y="0" key="CommitChangelistDialog2" timestamp="1584481329397">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="49" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1584481329397" />
-    <state width="1540" height="212" key="GridCell.Tab.0.bottom" timestamp="1584431631586">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1540" height="212" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584431631586" />
-    <state width="1540" height="212" key="GridCell.Tab.0.center" timestamp="1584431631586">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1540" height="212" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584431631586" />
-    <state width="1540" height="212" key="GridCell.Tab.0.left" timestamp="1584431631586">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1540" height="212" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584431631586" />
-    <state width="1540" height="212" key="GridCell.Tab.0.right" timestamp="1584431631586">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1540" height="212" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584431631586" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1584480338874">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1584480338874" />
   </component>
 </project>
