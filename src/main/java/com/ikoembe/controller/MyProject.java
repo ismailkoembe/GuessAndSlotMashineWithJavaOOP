@@ -18,27 +18,40 @@ import com.ikoembe.slotMaschine.*;
 public class MyProject {
 
     public static void main(String[] args) throws InterruptedException {
+
             CashBox user = new CashBox();
-            ATeam a1 = new ATeam("Hans", "Müller", 1000,0);
-            BTeam b1 = new BTeam("Thomas", "Mann", 400,0);         
-            System.out.println("Who plays? "+a1.getName()+" or "+b1.getName());
 
-            String antwort=Reader.readString();
 
-            if (antwort.equalsIgnoreCase(a1.getName())){
-           
+
+        ATeam a1 = new ATeam("Hans", "Müller", 1000, 0);
+            BTeam b1 = new BTeam("Thomas", "Mann", 400, 0);
+
+        String antwort;
+
+
+        do { // Buraya while do döngüsü eklenerek, yanlis isim girildiginde tekrar basa dönmesi saglandi.
+
+            System.out.println("Who plays? " + a1.getName() + " or " + b1.getName());
+
+            antwort = Reader.readString();
+            if (antwort.equalsIgnoreCase(a1.getName())) {
                 a1.whoPlays();
                 a1.information(a1.getName(), a1.getSurname(), a1.getGeld());
                 a1.playGame();
-           
-            }else if (antwort.equalsIgnoreCase(b1.getName())){ 
+
+            } else if (antwort.equalsIgnoreCase(b1.getName())) {
                 b1.whoPlays();
                 b1.information(b1.getName(), b1.getSurname(), b1.getGeld());
                 b1.playGame();
+            } else {
+                System.out.println("Invalid Entry. Please try again.");
 
-
+            }
         }
+        while (!(antwort.equalsIgnoreCase(a1.getName()) && antwort.equalsIgnoreCase(b1.getName())));
+
     }
+
     public static boolean playGame() throws InterruptedException {
         boolean flag=false;
             System.out.println("Do you want to play a game? '<Y>', '<N>'");
