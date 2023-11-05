@@ -23,9 +23,9 @@ import com.ikoembe.utilities.*;
             ATeam a1 = new ATeam();
             boolean flag= true;
             System.out.println("+++++++++Welcome to the Random Game+++++++++");
-            System.out.println(" Dial the number(1-5) and try to guess my number.");
+            System.out.println(" Dial the number(1-20) and try to guess my number.");
             System.out.println("You can try only three times. Number: ???");
-            int geheimnis =(int) (Math.random()*5+1);
+            int geheimnis =(int) (Math.random()*20+1);
             //System.out.println("-------"+geheimnis+"-----------");//for Testing
  
             do {

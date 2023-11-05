@@ -43,7 +43,7 @@ import java.util.Random;
         
     }
                                             
-    public static double playTheGame(double amountMethod, double tWinMethod) {
+    public static double playTheGame(double amountMethod, double tWinMethod) throws InterruptedException {
         CashBox user = new CashBox();
      
     String [] fruits={"Cherries", "Oranges", "Plums", "Bells", "Melons", "Pear"};
