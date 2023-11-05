@@ -23,17 +23,17 @@ import com.ikoembe.utilities.*;
             ATeam a1 = new ATeam();
             boolean flag= true;
             System.out.println("+++++++++Welcome to the Random Game+++++++++");
-            System.out.println(" Dial the number(1-20) and try to guess my number.");
+            System.out.println(" Dial the number(1-5) and try to guess my number.");
             System.out.println("You can try only three times. Number: ???");
-            int geheimnis =(int) (Math.random()*20+1);
+            int geheimnis =(int) (Math.random()*5+1);
             //System.out.println("-------"+geheimnis+"-----------");//for Testing
  
             do {
             int antw3=Reader.readInt();
         
             if (antw3==geheimnis) {
-                System.out.println("**************CONGRATULATIONS************"+"/nYou won  "
-                                    + "My Number was"+ geheimnis);
+                System.out.println("**************CONGRATULATIONS************"+"\nYou won!! "
+                                    + "\nMy Number was: "+ geheimnis);
                 user.profit=user.profitCalc(chance*geheimnis);
                 flag=false;            
                 MyProject.playGame();
@@ -43,7 +43,7 @@ import com.ikoembe.utilities.*;
                 chance--;
                     if (chance==0) {        
                     flag =false;
-                    System.out.println("My Number was "+geheimnis);
+                    System.out.println("My Number was :"+geheimnis);
                     user.profit=chance*geheimnis;
                     user.profitCalc(chance*geheimnis);
                     MyProject.endGame(flag, "Random Game");

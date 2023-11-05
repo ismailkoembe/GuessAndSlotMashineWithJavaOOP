@@ -97,7 +97,7 @@ import java.util.Random;
             MyProject.endGame(flag);
                                 
         } 
-        if (antwort.equalsIgnoreCase("y")) { //Burda oyun geri dönmüyordu
+        if (antwort.equalsIgnoreCase("y")) {
 
             flag=true;
         }   
