@@ -11,16 +11,16 @@ public ATeam () {}//Constructor
 
 public void information(String name, String surname, double geld) {
 
-    System.out.println(name+" "+surname+" hat "+geld+"€");
+    System.out.println(name+" "+surname+" has "+geld+"€");
 }
 
 
 public void whoPlays() {
-    System.out.println(name+" ist von A Team");
+    System.out.println(name+" is from A Team");
 }
 
-public void playGame() {
-    MeinProject.playGame();
+public void playGame() throws InterruptedException {
+    MyProject.playGame();
 }
 
 public ATeam(String name, String surname, double geld,double profit) {

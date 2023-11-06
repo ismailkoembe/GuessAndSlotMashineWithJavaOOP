@@ -14,8 +14,8 @@ public void whoPlays() {
 }
 
 @Override
-public void playGame() {
-    MeinProject.playGame();
+public void playGame() throws InterruptedException {
+    MyProject.playGame();
 }
 
 public BTeam (String name, String surname, double geld, double profit) {

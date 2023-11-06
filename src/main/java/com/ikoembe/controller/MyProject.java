@@ -7,22 +7,24 @@ package com.ikoembe.controller;
 
 import com.ikoembe.model.*;
 import com.ikoembe.utilities.*;
-import com.ikoembe.ratselGame.*;
+import com.ikoembe.randomGame.RatselSpiel;
 import com.ikoembe.slotMaschine.*;
+
 
 /**
  *
  * @author ismailkoembe
  */
-public class MeinProject {
+public class MyProject {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
             CashBox user = new CashBox();
             ATeam a1 = new ATeam("Hans", "Müller", 1000,0);
             BTeam b1 = new BTeam("Thomas", "Mann", 400,0);         
-            System.out.println("Wer spielt? "+a1.getName()+" oder "+b1.getName());
+            System.out.println("Who plays? "+a1.getName()+" or "+b1.getName());
 
             String antwort=Reader.readString();
+
             if (antwort.equalsIgnoreCase(a1.getName())){
            
                 a1.whoPlays();
@@ -34,16 +36,17 @@ public class MeinProject {
                 b1.information(b1.getName(), b1.getSurname(), b1.getGeld());
                 b1.playGame();
 
+
         }
     }
-    public static boolean playGame(){
+    public static boolean playGame() throws InterruptedException {
         boolean flag=false;
-            System.out.println("Wollen Sie ein Spiel spielen? '<J>', '<N>'");
+            System.out.println("Do you want to play a game? '<Y>', '<N>'");
             String antw1 = Reader.readString();
          if (antw1.equalsIgnoreCase("n")){
              endGame(flag);
              playContinue(flag);
-        }else if (antw1.equalsIgnoreCase("j")){
+        }else if (antw1.equalsIgnoreCase("y")){
             flag =true; 
             playContinue(flag);           
         }else { 
@@ -53,11 +56,11 @@ public class MeinProject {
          return flag;
     }         
 
-    public static boolean playContinue (boolean flag ){
+    public static boolean playContinue (boolean flag ) throws InterruptedException {
       while(flag) {
-            System.out.println("Which game do you want to play??");
-            System.out.println("For guessing game, enter <1>.");
-            System.out.println("For slot machine, enter <2>");
+            System.out.println("What game dou you want to play?");
+            System.out.println("For Random Game enter <1>.");
+            System.out.println("For Slot machine enter <2>");
             System.out.println("-------------------------------------");
             
             int antw2=Reader.readInt();
@@ -68,23 +71,23 @@ public class MeinProject {
                 SpielAutomat.run(flag);
                 break;
             }else if (antw2!=2&&antw2!=1){
-            System.out.println("Check your answer");
+            System.out.println("Check your answer.");
             System.out.println("");
             }
         }
 	return flag;
     }
     //überladene Methoden mit unterschiedliche eingabe
-    public static boolean endGame(boolean flag){
-            System.out.println("G A M E   O V E R!");
+    public static boolean endGame(boolean flag) throws InterruptedException {
+            System.out.println("+++++++++GAME OVER++++++++++");
             System.out.println("");
             
         return playContinue (false);
     }
     //überladene Methoden mit unterschiedliche eingabe
-    public static boolean endGame(boolean flag, String ratsel){
-            System.out.println("G A M E   O V E R!");
-            System.out.println(ratsel+" spiel beendet.");
+    public static boolean endGame(boolean flag, String ratsel) throws InterruptedException {
+            System.out.println("+++++++++GAME OVER++++++++++");
+            System.out.println(ratsel+"game is over");
             System.out.println("");
          
         return playContinue (false);

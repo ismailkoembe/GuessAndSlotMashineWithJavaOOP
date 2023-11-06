@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.ikoembe.ratselGame;
+package com.ikoembe.randomGame;
 import com.ikoembe.controller.*;
 import com.ikoembe.model.*;
 import com.ikoembe.utilities.*;
@@ -18,14 +18,13 @@ import com.ikoembe.utilities.*;
     
     public RatselSpiel() {}
        
-        public static boolean run(int chance){
+        public static boolean run(int chance) throws InterruptedException {
             CashBox user = new CashBox();
             ATeam a1 = new ATeam();
             boolean flag= true;
-            System.out.println("Willkommen Ratselspilen");
-            System.out.println(" Wahlen Sie die Nummer(1-20) und versuchen Sie, "
-                    + "meine Nummer zu erraten. ");
-            System.out.println( "Sie konnen es nur dreimal versuchen. Nummer: ???");
+            System.out.println("+++++++++Welcome to the Random Game+++++++++");
+            System.out.println(" Dial the number(1-20) and try to guess my number.");
+            System.out.println("You can try only three times. Number: ???");
             int geheimnis =(int) (Math.random()*20+1);
             //System.out.println("-------"+geheimnis+"-----------");//for Testing
  
@@ -33,30 +32,32 @@ import com.ikoembe.utilities.*;
             int antw3=Reader.readInt();
         
             if (antw3==geheimnis) {
-                System.out.println("Glückwunsch, Sie haben gewonnen. "
-                                    + "Mein Nummer war "+ geheimnis);
+
+   
+                System.out.println("**************CONGRATULATIONS************ /n You won"
+                                    + "My Number was"+ geheimnis);
                 user.profit=user.profitCalc(chance*geheimnis);
                 flag=false;            
-                MeinProject.playGame();
+                MyProject.playGame();
                 break;
             }
             else if(chance >= 1) {
                 chance--;
                     if (chance==0) {        
                     flag =false;
-                    System.out.println("Mein Nummer war "+geheimnis);
+                    System.out.println("My Number was "+geheimnis);
                     user.profit=chance*geheimnis;
                     user.profitCalc(chance*geheimnis);
-                    MeinProject.endGame(flag, "RatselSpiel");
-                    MeinProject.playGame();
+                    MyProject.endGame(flag, "Random Game");
+                    MyProject.playGame();
                     break;                
             }else
-                System.out.println("Versuche es noch einmal");
-                System.out.println("Sie haben "+chance+ " Chances");
+                System.out.println("Try again");
+                System.out.println("You have only "+chance+ " Chances");
                 
                 }
             }while (flag);
-            MeinProject.playContinue(flag);
+            MyProject.playContinue(flag);
             return false;
         } 
   
