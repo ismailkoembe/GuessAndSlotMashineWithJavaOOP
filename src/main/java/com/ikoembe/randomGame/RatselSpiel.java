@@ -33,8 +33,13 @@ import com.ikoembe.utilities.*;
         
             if (antw3==geheimnis) {
 
+<<<<<<< HEAD
+=======
+  
+              
+>>>>>>> 91f3c9bd9b4878c5255e71ff68f4a5188ab1909a
                 System.out.println("**************CONGRATULATIONS************"+"/nYou won"+geheimnis
-                                    + "My Number was"+ geheimnis);
+                    + "My Number was"+ geheimnis);
                 user.profit=user.profitCalc(chance*geheimnis);
                 flag=false;            
                 MyProject.playGame();
