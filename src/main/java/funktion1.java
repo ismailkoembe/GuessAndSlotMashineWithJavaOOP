@@ -8,10 +8,9 @@ public class funktion1 {
 
         System.out.println("Burhan branch'inde calisiyorum");
 
-<<<<<<< HEAD
-=======
+
         System.out.println("Artik Github ögrenelim");
->>>>>>> burhan
+
 
     }
 }
