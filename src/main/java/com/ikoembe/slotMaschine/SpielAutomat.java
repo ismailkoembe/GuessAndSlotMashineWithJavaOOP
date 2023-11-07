@@ -43,7 +43,7 @@ import java.util.Random;
         
     }
                                             
-    public static double playTheGame(double amountMethod, double tWinMethod) {
+    public static double playTheGame(double amountMethod, double tWinMethod) throws InterruptedException {
         CashBox user = new CashBox();
      
     String [] fruits={"Cherries", "Oranges", "Plums", "Bells", "Melons", "Pear"};
@@ -97,7 +97,7 @@ import java.util.Random;
             MyProject.endGame(flag);
                                 
         } 
-        if (antwort.equalsIgnoreCase("y")) { //Burda oyun geri dönmüyordu
+        if (antwort.equalsIgnoreCase("y")) {
 
             flag=true;
         }   

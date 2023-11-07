@@ -33,9 +33,9 @@ import com.ikoembe.utilities.*;
         
             if (antw3==geheimnis) {
 
+                System.out.println("**************CONGRATULATIONS************"+"\nYou won!! "
+                                    + "\nMy Number was: "+ geheimnis);
 
-                System.out.println("**************CONGRATULATIONS************"+"/nYou won"+geheimnis
-                    + "My Number was"+ geheimnis);
                 user.profit=user.profitCalc(chance*geheimnis);
                 flag=false;            
                 MyProject.playGame();
@@ -45,7 +45,7 @@ import com.ikoembe.utilities.*;
                 chance--;
                     if (chance==0) {        
                     flag =false;
-                    System.out.println("My Number was "+geheimnis);
+                    System.out.println("My Number was :"+geheimnis);
                     user.profit=chance*geheimnis;
                     user.profitCalc(chance*geheimnis);
                     MyProject.endGame(flag, "Random Game");
