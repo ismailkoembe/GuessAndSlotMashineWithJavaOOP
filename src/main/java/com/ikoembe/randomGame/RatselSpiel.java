@@ -52,7 +52,7 @@ import com.ikoembe.utilities.*;
                     MyProject.playGame();
                     break;                
             }else
-                System.out.println("Please! Try again");
+                System.out.println("Please ! Try again");
                 System.out.println("You have only "+chance+ " Chances");
                 
                 }
