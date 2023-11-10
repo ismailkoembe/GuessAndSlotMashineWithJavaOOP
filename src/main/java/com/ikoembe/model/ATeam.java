@@ -16,6 +16,7 @@ public void information(String name, String surname, double geld) {
 
 
 public void whoPlays() {
+
     System.out.println(name+" is from A Team");
 }
 
@@ -32,7 +33,8 @@ public ATeam(String name, String surname, double geld,double profit) {
 }
 
     public String getName() {
-        return name;
+
+    return name;
     }
 
     public void setName(String name) {
